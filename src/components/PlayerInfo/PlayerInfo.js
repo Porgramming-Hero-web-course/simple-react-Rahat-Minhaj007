@@ -22,7 +22,7 @@ const UserInfo = (props) => {
 
     }
     return (
-        <div  style={userStyle}>
+        <div id="team"  style={userStyle}>
             <div style = {{backgroundColor :"#0b7e1e",borderRadius :"10px"}}  className="user-img">
                 <img style={{ width: "200px", height :"200px", borderRadius :"50%",marginTop :"4px"}} src={img} alt="" />
             </div>

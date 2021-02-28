@@ -3,7 +3,7 @@ import Cart from '../PlayerCart/PlayerCart';
 
 const Added = (props) => {
     const addedUsers = props.addedUsers
-    console.log(addedUsers);
+
     let totalIncome = 0;
     for (let i = 0; i < addedUsers.length; i++) {
         const addeduser = addedUsers[i];

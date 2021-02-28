@@ -1,8 +1,6 @@
 .App {
   text-align: center;
-  
-
- }
+}
  .app-body{
   display: flex;
  }
@@ -49,5 +47,31 @@
   border-radius:5px;
   height:150px;
   width:250px;
+
+}
+.head{
+  background-image: url("images/bd2.png");
+  height:1000px;
+  color:white;
+  display :flex;
+  justify-content:space-around;
+  
+
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  margin-left: 25px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #0fa01b;
+  border-radius:5px;
+  
+
+}
+
+nav a:hover{
+ background-color:ghostwhite;
+ color: black;
 
 }

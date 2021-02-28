@@ -5,7 +5,7 @@ const Cart = (props) => {
     const cartStyle = {
         borderRadius: "20px",
         backgroundColor: "rgb(241, 241, 241)",
-        marginTop: "50px",
+        marginTop: "0px",
         padding: "10px",
         boxShadow: "5px 5px 10px grey",
         height: "350px",
