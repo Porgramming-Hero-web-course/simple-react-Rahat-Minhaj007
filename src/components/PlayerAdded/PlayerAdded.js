@@ -14,7 +14,7 @@ const Added = (props) => {
     // const totalIncome = addedUsers.reduce((sum, user) => sum + user.salary,0);
     return (
         <div>
-            <h3 style={{color: 'white'}}>Users Total Salary : $ {totalIncome}</h3>
+            <h3 style={{color: 'white'}}>Players Total Salary : $ {totalIncome}</h3>
             {
                 addedUsers.map(us => <Cart us={us}></Cart> )
             }

@@ -18,14 +18,12 @@ const Cart = (props) => {
     return (
         <div>
             <div style={cartStyle}>
-            <div style = {{backgroundColor :"#4b98f0",borderRadius :"10px"}}  className="user-img">
+            <div style = {{backgroundColor :"#0b7e1e",borderRadius :"10px"}}  className="user-img">
                 <img style={{ width: "200px", height :"200px", borderRadius :"50%",marginTop :"4px"}} src={img} alt="" />
             </div>
             <div>
-            <h4 >My Name is : {name}</h4>
-                <p  style={{color: 'rgb(51, 54, 245)'}}>Email : {name}</p>
-           
-                <p  style={{color: 'rgb(51, 54, 245)'}}>Salary :$ {salary}</p>
+            <h4 >{name}</h4>
+                <h4  style={{color: 'rgb(51, 54, 245)'}}>Salary :$ {salary}</h4>
               
             </div>
             </div>

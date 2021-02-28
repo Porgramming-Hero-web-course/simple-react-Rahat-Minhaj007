@@ -25,7 +25,7 @@ function App() {
   return (
     
     <div className="App">
-     <h1>USER INFORMATION</h1>
+     <h1>PLAYERS INFORMATION</h1>
       <div className="app-body" >
         
       <div className="App-header">
@@ -36,8 +36,8 @@ function App() {
       </div>
 
       <div className="cart">
-      <h2>User Loaded : {users.length}</h2>
-      <h3>User Added : {addedUsers.length} </h3>
+      <h2>Players Loaded : {users.length}</h2>
+      <h3>Players Added : {addedUsers.length} </h3>
       <Added addedUsers={addedUsers}></Added>
      </div>
       </div>
