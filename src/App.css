@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: gainsboro;
+  height:8000px;
 }
  .app-body{
   display: flex;
@@ -45,8 +47,9 @@
   padding:10px;
   background-color: #0b7e1e;
   border-radius:5px;
-  height:150px;
-  width:250px;
+  height:170px;
+  width:350px;
+  margin-top: 75px;
 
 }
 .head{

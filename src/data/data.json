@@ -9,7 +9,7 @@
       "club" : "KKR,Dhaka Gladiators",
       "statics" :"Matches- 209 | Wickets- 265 | Best- 6-26 | Eco- 4.8",
       "img":"https://ss.thgim.com/cricket/article27263506.ece/alternates/FREE_380/mashrafe-mortazajpg",
-      "salary" : 1500,
+      "salary" : 8500,
       "address": {
         "street": "Kulas Light",
         "suite": "Apt. 556",
@@ -38,7 +38,7 @@
       "club" : "KKR,Dhaka Gladiators,Sun Rise",
       "statics" :"Matches- 198 | Runs- 5717 | HS- 134* | Avg- 35.73 | 100s- 7 | 50s- 42 | Wickets- 249 | Best- 5-47 | Eco- 4.44",
        "img":"https://ss.thgim.com/cricket/article27264273.ece/alternates/FREE_330/shakib-al-hasanjpg",
-       "salary" : 2500,
+       "salary" : 10500,
       "address": {
         "street": "Victor Plains",
         "suite": "Suite 879",
@@ -67,7 +67,7 @@
       "club" : "Khulna Titans,Trinadad Tobacco",
       "statics" :"Matches- 205 | Runs- 5558 | HS- 144 | Avg- 34.95 | 100s- 6 | 50s- 33 | Catches- 169 | Stumpings- 42",
        "img":"https://ss.thgim.com/cricket/article27263882.ece/alternates/FREE_330/mushfiqur-rahimjpg",
-       "salary" : 3500,
+       "salary" : 8500,
       "address": {
         "street": "Douglas Extension",
         "suite": "Suite 847",
@@ -96,7 +96,7 @@
       "club" : "Chittagong Vikings,Lahor Qalandars",
       "statics" :"Matches- 193 | Runs- 6636 | HS- 154 | Avg- 36.26 | 100s- 11 | 50s- 46",
        "img":"https://ss.thgim.com/cricket/article27263543.ece/alternates/FREE_380/tamim-iqbaljpg",
-       "salary" : 4500,
+       "salary" : 7500,
       "address": {
         "street": "Hoeger Mall",
         "suite": "Apt. 692",
@@ -212,7 +212,7 @@
       "club" : "Khulna Titans ,Hamshire Bulls",
       "statics" :"Matches- 28 | Wickets- 29 | Best- 4-29 | Eco- 4.38",
        "img":"https://ss.thgim.com/cricket/article27264489.ece/alternates/FREE_330/mehdi-hasanjpg",
-       "salary" : 8500,
+       "salary" : 5500,
       "address": {
         "street": "Ellsworth Summit",
         "suite": "Suite 729",
@@ -233,7 +233,7 @@
     },
     {
       "id": 9,
-      "name": "Mohammad Saifuddin",
+      "name":"M.Saifuddin",
       "username": "Saif",
       "email": "saif@cric.info",
       "role": "Fast B.All Rounder",
@@ -241,7 +241,7 @@
       "club" : "Comilla Warrior,Notinghum King",
       "statics" :"Matches- 13 | Runs- 175 | HS- 50 | 50s- 1 | Wickets- 11 | Best- 3-45 | Eco- 5.23",
        "img":"https://ss.thgim.com/cricket/article27264388.ece/alternates/FREE_330/mohammed-saifuddinjpg",
-       "salary" : 9500,
+       "salary" : 4500,
       "address": {
         "street": "Dayna Park",
         "suite": "Suite 449",
@@ -270,7 +270,7 @@
       "club" : "Comilla Warrior,Shylet Royels",
       "statics" :"Matches- 97 | Wickets- 123 | Best- 6-26 | Eco- 5.62",
        "img":"https://ss.thgim.com/cricket/article27264498.ece/alternates/FREE_330/rubel-hossainjpg",
-       "salary" : 10000,
+       "salary" : 4000,
       "address": {
         "street": "Kattie Turnpike",
         "suite": "Suite 198",
@@ -299,7 +299,7 @@
       "club" : "Mumbai Indians,SunRise,KKR",
       "statics" :"Matches- 46 | Wickets- 83 | Best- 6-43 | Eco- 4.88",
        "img":"https://ss.thgim.com/cricket/article27264533.ece/alternates/FREE_330/mustafizur-rahmanjpg",
-       "salary" : 6500,
+       "salary" : 9700,
       "address": {
         "street": "Norberto Crossing",
         "suite": "Apt. 950",
@@ -328,7 +328,7 @@
       "club" : "Barishal Titans,Notinghum King",
       "statics" :"Matches- 2 | Wickets- 5 | Best- 5-58 | Eco- 6.33",
        "img":"https://ss.thgim.com/cricket/article27264577.ece/alternates/FREE_330/abu-jayedjpg",
-       "salary" : 7500,
+       "salary" : 3500,
       "address": {
         "street": "Rex Trail",
         "suite": "Suite 280",
