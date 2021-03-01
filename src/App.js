@@ -17,9 +17,18 @@ function App() {
   }, [])
 
   const handleAddPlayer = (playerClicked) => {
-      let addedPlayer = [...addedPlayers, playerClicked];
-      setAddedPlayers(addedPlayer);
-}
+   
+    if(addedPlayers.indexOf(playerClicked)===-1){
+    let addedPlayer = [...addedPlayers, playerClicked];
+   
+       setAddedPlayers(addedPlayer);
+    }
+   
+    
+     
+    
+   
+  }
   return (
     <div className="App">
       <Nav></Nav>
