@@ -1,4 +1,4 @@
-#btn{
+/* #btn{
     background-color: #0b7e1e;
     border-color:   #0c9523 rgb(11, 155, 35)#0b7e1e;;
     color: #111;
@@ -14,4 +14,20 @@
 #btn:hover{
     background-color: #2aa819;
     border-color: #42e44f #4cd66e #46e992;
+} */
+.playerStyle{
+
+        border-radius: 20px;
+        background-color: rgb(214, 214, 214);
+        margin: 50px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px rgb(143, 143, 143);
+        height: 550px;
+        width: 300px;
+        color: black;
+        display:float;
+        text-align: "center";
+}
+.playerStyle:hover{
+        background-color:rgb(251, 250, 250);
 }

@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import usersData from './data/data.json';
-import UserInfo from './components/PlayerInfo/PlayerInfo';
-import Added from './components/PlayerAdded/PlayerAdded';
+import playersData from './data/data.json';
+import PlayerInfo from './components/PlayerInfo/PlayerInfo';
+import PlayerAdded from './components/PlayerAdded/PlayerAdded';
 import Nav from './components/Nav/Nav';
 
 
 function App() {
-  const [users, setUser] = useState([]);
-  let [addedUsers, setAddedUsers] = useState([]);
+  const [players, setPlayer] = useState([]);
+  let [addedPlayers, setAddedPlayers] = useState([]);
 
   useEffect(() => {
-    setUser(usersData)
+    setPlayer(playersData)
 
   }, [])
 
-  const handleAddUser = (userClicked) => {
-    let addedUser = [...addedUsers, userClicked];
-    setAddedUsers(addedUser);
+  const handleAddPlayer = (playerClicked) => {
+    console.log(playerClicked)
+    if(addedPlayers.indexOf(playerClicked ===-1)){
+      let addedPlayer = [...addedPlayers, playerClicked];
+      setAddedPlayers(addedPlayer);
+    }
+   
+    
+     
+    
+   
   }
   return (
     <div className="App">
@@ -26,13 +34,13 @@ function App() {
       <div className="app-body" >
         <div className="App-header">
           {
-            users.map(user => <UserInfo info={user} key={user.id} handleAddUser={handleAddUser}></UserInfo>)
+            players.map(player => <PlayerInfo info={player} key={player.id} handleAddPlayer={handleAddPlayer}></PlayerInfo>)
           }
         </div>
         <div className="cart">
-          <h2>Players Loaded : {users.length}</h2>
-          <h3>Players Added : {addedUsers.length} </h3>
-          <Added addedUsers={addedUsers}></Added>
+          <h2>Players Loaded : {players.length}</h2>
+          <h3>Players Added : {addedPlayers.length} </h3>
+          <PlayerAdded addedPlayers={addedPlayers}></PlayerAdded>
         </div>
       </div>
     </div>

@@ -3,12 +3,12 @@ import './Nav.css';
 const Nav = () => {
     return (
         <div id="home" className="head">
-        <h1>Team Maker</h1>
-        <nav style={{marginTop:"15px"}}>
+        <h1 style={{fontFamily: 'cursive'}}>Team Maker</h1>
+        <nav  style={{marginTop:"15px"}}>
         
-            <a href="#home">Home</a>
-            <a href="#team">Team</a>
-            <a href="#about">About</a>
+            <a className="navbar-brand" href="#home">Home</a>
+            <a className="navbar-brand" href="#team">Team</a>
+            <a className="navbar-brand" href="#about">About</a>
     
         </nav>
         </div>

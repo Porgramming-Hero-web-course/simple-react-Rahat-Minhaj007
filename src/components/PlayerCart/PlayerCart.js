@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Cart = (props) => {
+const PlayerCart = (props) => {
     const { img, name, salary, role } = props.us
     const cartStyle = {
         borderRadius: "20px",
         backgroundColor: "rgb(241, 241, 241)",
-        marginTop: "150px",
+        marginTop: "40px",
         padding: "10px",
         boxShadow: "5px 5px 10px grey",
         height: "380px",
@@ -36,4 +36,4 @@ const Cart = (props) => {
     );
 };
 
-export default Cart;
+export default PlayerCart;
