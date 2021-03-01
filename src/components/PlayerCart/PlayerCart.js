@@ -1,25 +1,12 @@
 import React from 'react';
-
+import './PlayerCart.css';
 const PlayerCart = (props) => {
     const { img, name, salary, role } = props.us
-    const cartStyle = {
-        borderRadius: "20px",
-        backgroundColor: "rgb(241, 241, 241)",
-        marginTop: "40px",
-        padding: "10px",
-        boxShadow: "5px 5px 10px grey",
-        height: "380px",
-        width: "260px",
-        color: "black",
-        textAlign: "center",
-        marginLeft: "30px"
 
-
-    }
     return (
         <div>
 
-            <div style={cartStyle}>
+            <div className ="cartStyle">
 
                 <div style={{ backgroundColor: "#0b7e1e", borderRadius: "10px" }} className="user-img">
                     <img style={{ width: "200px", height: "200px", borderRadius: "50%", marginTop: "4px" }} src={img} alt="" />
